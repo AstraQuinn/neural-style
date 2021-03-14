@@ -1,8 +1,8 @@
 # neural-style-colab [![Build Status](https://github.com/anishathalye/neural-style/workflows/CI/badge.svg)](https://github.com/anishathalye/neural-style/actions?query=workflow%3ACI)
 
-An implementation of [neural style][paper] in TensorFlow.
+NB: This fork contains changes meant to improve compatibility with google colab. the ipynb file can be imported to Google Colab and run from there. It will clone the repository at runtime.
 
-This fork contains changes meant to improve compatibility with google colab
+An implementation of [neural style][paper] in TensorFlow.
 
 This implementation is a lot simpler than a lot of the other ones out there,
 thanks to TensorFlow's really nice API and [automatic differentiation][ad].
